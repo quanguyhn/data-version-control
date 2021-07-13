@@ -2,5 +2,6 @@
     remote = remote_storage
 [cache]
     dir = ../../shared_cache
+    type = symlink
 ['remote "remote_storage"']
     url = ../../dvc_remote
